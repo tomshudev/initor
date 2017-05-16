@@ -36,7 +36,7 @@ class Handler {
 
     handleDirectory(self) {
         if (self.program.git) {
-            self.runOrder(self);
+            self.runNext(self);
         } else {
             self.dir = self.program.name ? self.program.name : 'default';
             mkdirp(`./${self.dir}`, function(err) {

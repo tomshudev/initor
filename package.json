@@ -2,7 +2,7 @@
   "name": "initor",
   "version": "1.0.0",
   "description": "Command-Line-Interface that initialize js project with all the needed libraries",
-  "main": "index.js",
+  "main": "initor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
