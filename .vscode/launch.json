@@ -1,0 +1,72 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [    
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program Git + Package",
+            "program": "${workspaceRoot}\\index.js",
+            "outFiles": [],
+            "args": [
+                "-g",
+                "https://github.com/tomshudev/next-episode.git",
+                "-p"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program Only Git",
+            "program": "${workspaceRoot}\\index.js",
+            "outFiles": [],
+            "args": [
+                "-g",
+                "https://github.com/tomshudev/next-episode.git"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program Only Package",
+            "program": "${workspaceRoot}\\index.js",
+            "outFiles": [],
+            "args": [
+                "-p"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program Only Libraries",
+            "program": "${workspaceRoot}\\index.js",
+            "outFiles": [],
+            "args": [
+                "-l",
+                "jsonfile, react, redux"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program Libraries + Package",
+            "program": "${workspaceRoot}\\index.js",
+            "outFiles": [],
+            "args": [
+                "-p",
+                "-l",
+                "jsonfile, react, redux"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach to Process",
+            "address": "localhost",
+            "port": 5858,
+            "outFiles": []
+        }
+    ]
+}

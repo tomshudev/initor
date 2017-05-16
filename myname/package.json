@@ -1,0 +1,20 @@
+{
+  "name": "myname",
+  "version": "1.2.0",
+  "description": "asdfasd",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "jsonfile": "^3.0.0",
+    "react": "^15.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "f"
+  ],
+  "author": "fffff",
+  "license": "ISC"
+}
